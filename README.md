@@ -1,7 +1,7 @@
 # BH-AI-ML-Assignment-17.1
 This project compares K-Nearest Neighbors, Logistic Regression, Decision Tree, and Support Vector Machine classifiers to predict whether a customer will subscribe to a term deposit, using data from a Portuguese banking institution's telemarketing campaigns.
 
-## Notebook: 
+## Notebook
 
 [View the completed Jupyter Notebook](https://github.com/RaniDeepLearning/BH-AI-ML-Assignment-17.1/blob/main/term_deposit_pred.ipynb)
 
@@ -28,7 +28,7 @@ Aims at Predicting which customers are more likely to subscribe to a term deposi
 7. Threshold tuning — optimal decision thresholds selected per model to balance precision/recall, since imbalance renders the       default 0.5 threshold ineffective.
 8. Interpretation — logistic regression coefficients and odds ratios examined to identify which customer segments are more/less     likely to subscribe.
 
-# Key Findings:
+# Key Findings
 - Only 11.3% of customers subscribed, so the target was highly imbalanced.
 - The baseline accuracy was 88.7%, but the baseline model did not identify any subscribers.
 - The Decision Tree had the highest cross-validation average precision of 0.215 and a test average precision of 0.210.
@@ -40,7 +40,7 @@ Aims at Predicting which customers are more likely to subscribe to a term deposi
 - Students, retired customers, and single customers showed a higher likelihood of subscribing.
 - These results show patterns in the data but do not prove that these features caused customers to subscribe.
 
-# Recommendations:
+# Recommendations
 - The bank should contact customers with the highest predicted subscription probabilities first.<br>
 - The decision threshold should be adjusted based on how many customers the bank can contact.<br>
 - A higher threshold can reduce unnecessary calls, but it may also miss some subscribers.<br>
