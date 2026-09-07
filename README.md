@@ -6,7 +6,7 @@ This project compares K-Nearest Neighbors, Logistic Regression, Decision Tree, a
 [View the completed Jupyter Notebook](https://github.com/RaniDeepLearning/BH-AI-ML-Assignment-17.1/blob/main/term_deposit_pred.ipynb)
 
 
-Data source: UCI Machine Learning Repository – Bank Marketing Dataset
+Data source: UCI Machine Learning Repository – Bank Marketing Dataset(https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
 # Business Objective
 Aims at Predicting which customers are more likely to subscribe to a term deposit so the bank can prioritise outreach, improve telephone marketing efficiency, reduce unnecessary calls, and use time and resources more effectively.
