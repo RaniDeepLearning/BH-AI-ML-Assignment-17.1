@@ -28,19 +28,7 @@ Aims at Predicting which customers are more likely to subscribe to a term deposi
 7. Threshold tuning — optimal decision thresholds selected per model to balance precision/recall, since imbalance renders the       default 0.5 threshold ineffective.
 8. Interpretation — logistic regression coefficients and odds ratios examined to identify which customer segments are more/less     likely to subscribe.
 
-# Key Findings
-  - The baseline's 88.7% accuracy is misleading — it comes from predicting every customer as a non-subscriber and catches zero       actual subscribers.
-  - The tuned Decision Tree had the highest average precision (0.211) and ROC-AUC (0.663), meaning it ranks likely subscribers       best overall, but its default-threshold recall was only 3.9%.
-  - Logistic Regression was selected as the practical choice: easier to interpret, and after threshold tuning (threshold = 0.12) 
-    it achieved:<br>
-      Precision: 17.0%<br>
-      Recall: 52.3%<br>
-      F1-score: 25.6%<br>
-  - The model correctly identified 485 subscribers but also produced 2,373 false positives.
-  - Students, retired, and single customers were more likely to subscribe; blue-collar, service, and entrepreneurial workers,and     customers with unknown default status, were less likely to subscribe.
-  - These are associations, not causal relationships.
-
-# Findings:
+# Key Findings:
 - Only 11.3% of customers subscribed, so the target was highly imbalanced.
 - The baseline accuracy was 88.7%, but the baseline model did not identify any subscribers.
 - The Decision Tree had the highest cross-validation average precision of 0.215 and a test average precision of 0.210.
