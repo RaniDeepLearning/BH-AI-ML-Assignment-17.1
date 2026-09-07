@@ -1,7 +1,10 @@
 # BH-AI-ML-Assignment-17.1
 This project compares K-Nearest Neighbors, Logistic Regression, Decision Tree, and Support Vector Machine classifiers to predict whether a customer will subscribe to a term deposit, using data from a Portuguese banking institution's telemarketing campaigns.
 
-Notebook: github.com/RaniDeepLearning/BH-AI-ML-Assignment-17.1/blob/main/term_deposit_pred.ipynb
+## Notebook: 
+
+[View the completed Jupyter Notebook](https://github.com/RaniDeepLearning/BH-AI-ML-Assignment-17.1/blob/main/term_deposit_pred.ipynb)
+
 
 Data source: UCI Machine Learning Repository – Bank Marketing Dataset
 
